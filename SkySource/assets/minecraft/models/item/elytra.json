@@ -1,0 +1,12 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/elytra"
+    },
+    "overrides": [
+		{"predicate": {"damaged": 1, "damage": 0.25}, "model": "item/elytra1"},
+		{"predicate": {"damaged": 1, "damage": 0.50}, "model": "item/elytra2"},
+		{"predicate": {"damaged": 1, "damage": 0.80}, "model": "item/elytra3"},
+        {"predicate": {"broken": 1},"model": "item/broken_elytra"}
+    ]
+}

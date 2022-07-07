@@ -12,5 +12,3 @@ Degredation artwork done by Danjim and Zander. Other modifications and Code done
 This is pre-release, so please don't share this pack just yet, there are still updates that need to be done!
 
 Also I'd like to thank VanillaTweaks.net for inspiration for some parts of this pack, this helped me tweak it to better fit the pack and minecraft in general! Go check out their website for way more specific tweaks c:
-
-I will need to rewrite some code since some are directly imported as of currently... Most newer updates are imported from the website and will need to be rewritten, they have a lot of great ideas.

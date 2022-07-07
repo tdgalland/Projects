@@ -1,0 +1,11 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/iron_horse_armor"
+  },
+	"overrides": [
+		{ "predicate": {"damaged": 1, "damage": 0.25}, "model": "item/iron_horse_armor1"},
+		{ "predicate": {"damaged": 1, "damage": 0.50}, "model": "item/iron_horse_armor2"},
+		{ "predicate": {"damaged": 1, "damage": 0.80}, "model": "item/iron_horse_armor3"}
+	]
+}

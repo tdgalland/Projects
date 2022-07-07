@@ -6,9 +6,6 @@ If you do not like the thinner XP/Horse Stamina bar, there is a thicker version 
 
 If you find the fishing hook hard to see, remove .old on fishing_hook.png in assets/minecraft/textures/entity and place it on the current fishing hook.
 
-If you got any suggestions or what not feel free to hit me up on Discord:
-
-Skyite Ovexion#5873
 
 Degredation artwork done by Danjim and Zander. Other modifications and Code done by me!
 

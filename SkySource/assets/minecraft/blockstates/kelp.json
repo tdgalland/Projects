@@ -1,0 +1,6 @@
+{
+    "variants": {
+        "age=25":[{"model": "block/kelp_a25p", "weight":100}, {"model": "block/kelp_a25b", "weight":70}, {"model": "block/kelp_a25r", "weight":50}, {"model": "block/kelp_a25y", "weight":80}, {"model": "block/kelp_a25o", "weight":85}, {"model": "block/kelp_a25i", "weight":75}],
+        "normal": {"model": "block/kelp"}
+    }
+}

@@ -1,0 +1,11 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/shears"
+  },
+	"overrides": [
+		{ "predicate": {"damaged": 1, "damage": 0.25}, "model": "item/shears1"},
+		{ "predicate": {"damaged": 1, "damage": 0.50}, "model": "item/shears2"},
+		{ "predicate": {"damaged": 1, "damage": 0.80}, "model": "item/shears3"}
+	]
+}

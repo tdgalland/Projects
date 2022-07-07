@@ -1,0 +1,11 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/turtle_helmet"
+  },
+	"overrides": [
+		{ "predicate": {"damaged": 1, "damage": 0.25}, "model": "item/turtle_helmet1"},
+		{ "predicate": {"damaged": 1, "damage": 0.50}, "model": "item/turtle_helmet2"},
+		{ "predicate": {"damaged": 1, "damage": 0.80}, "model": "item/turtle_helmet3"}
+	]
+}

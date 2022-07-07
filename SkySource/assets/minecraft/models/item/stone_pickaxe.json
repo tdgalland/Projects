@@ -1,0 +1,11 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "item/stone_pickaxe"
+    },
+	"overrides": [
+		{ "predicate": {"damaged": 1, "damage": 0.25}, "model": "item/stone_pickaxe1"},
+		{ "predicate": {"damaged": 1, "damage": 0.50}, "model": "item/stone_pickaxe2"},
+		{ "predicate": {"damaged": 1, "damage": 0.80}, "model": "item/stone_pickaxe3"}
+	]
+}

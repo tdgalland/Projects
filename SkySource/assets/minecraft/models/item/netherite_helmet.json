@@ -1,0 +1,11 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "item/netherite_helmet"
+    },
+	"overrides": [
+		{ "predicate": {"damaged": 1, "damage": 0.25}, "model": "item/netherite_helmet1"},
+		{ "predicate": {"damaged": 1, "damage": 0.50}, "model": "item/netherite_helmet2"},
+		{ "predicate": {"damaged": 1, "damage": 0.80}, "model": "item/netherite_helmet3"}
+	]
+}

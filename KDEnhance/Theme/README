@@ -1,0 +1,37 @@
+[THIS IS A WORK IN PROGRESS AUTO DAY/NIGHT THEME!!!]
+This is being worked on by a techy dude who goes by the name Dubfiance.
+This is intended to be for KDE neon/Kubuntu/or any KDE5 interface.
+Everything else is just on you I can't be held responsible.
+
+The goal of this script is to create automated Look and Theme files, they are on a simple day/night cycle. I believe that the script itself is pretty much good.
+
+#-----------------------------------------------------------------------#
+WHAT YOU NEED:
+    plasma-sdk (Optional)
+    lookandfeeltool (Probably already installed, but it's good to check)
+
+Copy this into terminal: sudo apt install plasma-sdk lookandfeeltool
+#-----------------------------------------------------------------------#
+
+First things first we got to determine your light and dark themes. If you are content with Plasma's default light and dark themes you can skip this section.
+
+        If you have a custom theme, install the plasma-sdk and open up the program called 'Plasma Look and Feel Explorer' should be in the development tab
+        
+        Hit the lined box on the bottom left and hit new theme. a pop-up will show and you need to fill ALL boxes with something.
+        
+        after that go to the main page and start inputting a screenshot of what your theme looks like and call it what you want. MAKE SURE TO CHANGE THE VERSION NUMBER ON THE MAIN SCREEN IF YOU WANT CHANGES TO SAVE PROPERLY!!!
+        
+        After you save this, do this twice. Once for the light theme and once for the dark theme, fastest way is to click on the defaults and tweek em how you want.
+        
+Second thing. THE SCRIPT ISN'T FUNCTIONAL YET, YOU GOTTA INPUT THE LOOK AND FEEL THEME NAMES IN THERE MANUALLY SO IT CAN WORK PROPERLY. I had custom settings just made for me and if it was in this script you'd have so much trouble figuring out what it was only to find out this custom theme isn't on your system. To figure out what your computer has installed either what you made or what your computer comes with just follow the info below.
+
+        To do this just open up terminal and run: lookandfeeltool -l and make note of the dark and light themes.
+        
+        Then open up the script and replace the pointed out areas in the script with the info so the line looks something like: lookandfeeltools -a 'YourThemeNameHere' with the dark and light themes respectivly.
+        
+To be able to make this thing "automatic" you need to put it in the startup thing as a program. This script runs:
+
+    -Every time a user logs in
+    -Every hour on the hour
+
+Yea I think that's it for me here. Good luck.

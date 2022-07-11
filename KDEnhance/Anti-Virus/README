@@ -1,0 +1,28 @@
+[THIS IS A DOWNLOAD SCANNER CHECKER!!!]
+This is being worked on by a techy dude who goes by the name Dubfiance.
+This is intended to be for KDE neon/Kubuntu/or any KDE5 interface.
+Everything else is just on you I can't be held responsible.
+
+This is a scanning script that I modified from the internet to now include:
+    -Changed popups to notifications
+    -Different notifications for safe/infected files
+    -A scanning prompt for files over 25MB
+    -Hides all files required so it works in the background
+    -Clears virus-quarantine for each login
+    
+The original article that I modified the script from is here:
+    https://fitzcarraldoblog.wordpress.com/2017/03/05/using-the-clamav-daemon-to-scan-files-placed-in-my-downloads-directory-in-gentoo-linux/
+    
+#---------------------------------------------------------------------------------#
+WHAT YOU NEED:
+    clamav (Required)
+    inotifywait (Required)
+    clamdscan (Required)
+    notify-send (Required)
+
+Copy this into terminal: sudo apt install clamav inotifywait clamdscan notify-send
+#---------------------------------------------------------------------------------#
+
+Put this script into autostart in KDE settings as an application. Logout/Login and now you will get notified for all downloads if your download is safe or viruses are found.
+
+All detected viruses will end up in ~/.virus-quarantine, so if it detects something, check there.

@@ -1,0 +1,24 @@
+[THESE ARE BATTERY SCRIPTS!!!]
+This is being worked on by a techy dude who goes by the name Dubfiance.
+This is intended to be for KDE neon/Kubuntu/or any KDE5 interface or any OS that allows users to put custom scripts to battery profiles.
+Everything else is just on you I can't be held responsible.
+
+These are VERY simple battery scripts that are to be applied by adding them to the scrips section of the energy saving settings page.
+
+There are three scripts that are simply named for adding them to the appropriate battery profile.
+
+#-------------------------------------------------------------#
+WHAT YOU NEED:
+    tuned-adm (Required)
+    qdbus (Probably already installed, but it's good to check)
+
+Copy this into terminal: sudo apt install tuned-adm qdbus
+#-------------------------------------------------------------#
+
+AC - AC script. Enables compositing and puts computer in the throughput-performance energy profile.
+
+BN - Battery Normal script or normal battery use. Enables compositing and puts computer in the laptop-battery-powersave energy profile.
+
+BL - Battery Low script. Disables compositing and puts computer in the laptop-battery-powersave energy profile.
+
+Yea I think that's it for me here. Good luck.
